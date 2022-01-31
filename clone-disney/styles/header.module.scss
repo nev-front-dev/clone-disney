@@ -1,0 +1,15 @@
+.header {
+  @apply flex justify-between items-center bg-[#141518] h-20 max-w-full px-5;
+}
+.nav{
+  @apply flex space-x-4;
+}
+.nav__link {
+  @apply flex items-center space-x-2;
+  span {
+    @apply inline-block text-white text-sm uppercase;
+  }
+}
+.login__button {
+  @apply text-base border-2 border-[#fff] rounded-md text-white uppercase p-1 hover:text-black hover:bg-white transition duration-200;
+}
